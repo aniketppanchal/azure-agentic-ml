@@ -1,0 +1,11 @@
+[project]
+name = "azure-agentic-ml-agent"
+version = "0.1.0"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "agent-framework>=1.0.0rc4",
+    "chainlit>=2.10.0",
+]
+
+[tool.uv]
+prerelease = "allow"

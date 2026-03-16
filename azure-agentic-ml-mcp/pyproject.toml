@@ -1,0 +1,13 @@
+[project]
+name = "azure-agentic-ml-mcp"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "azure-identity>=1.25.2",
+    "azure-mgmt-appcontainers>=4.0.0",
+    "azure-mgmt-containerinstance>=10.1.0",
+    "azure-storage-file-share>=12.24.0",
+    "gradio[mcp]>=6.9.0",
+    "pydantic>=2.12.5",
+    "pydantic-settings>=2.13.1",
+]
